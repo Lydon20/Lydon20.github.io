@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recycle Bin (Solid State)</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Specific styles for this artwork page */
+    .artwork-header {
+      padding: 60px 30px;
+    }
+    .green-title {
+      color: #008000;
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 32px;
+      font-weight: normal;
+    }
+
+    .detail-container {
+  position: relative;
+  margin: 60px 30px 200px;
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+
+    .artwork-image-frame {
+  border: 3px solid #FAFAFA;
+  padding: 30px;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+    .artwork-image-frame img {
+  width: 170px;
+}
+
+
+
+    .description-box {
+  border: 1px solid #FAFAFA;
+  padding: 24px;
+  max-width: 700px;
+  font-size: 19px;
+  line-height: 1.55;
+  margin-left: 400px;
+}
+
+/* === ARTWORK PAGE FLOW FIX === */
+
+.artwork-page .canvas {
+  min-height: auto;
+}
+
+/* Reset absolute positioning from homepage */
+.artwork-page .tickets,
+.artwork-page .footer,
+.artwork-page .logos {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-right: 50%;
+}
+    
+  </style>
+</head>
+<body class="artwork-page">
+
+
+<div class="canvas">
+
+  <!-- ARTWORK HEADER (no nav) -->
+  <div class="artwork-header">
+    <div class="green-title">Recycle Bin (Solid State)</div>
+    <div class="subtitle">Sculpture, Cast Concrete</div>
+  </div>
+
+  <!-- ARTWORK DETAIL SECTION -->
+  <div class="detail-container">
+    
+    <div class="artwork-image-frame">
+      <img src="/Assets/bin.png" alt="Recycle Bin">
+    </div>
+
+    <div class="description-box">
+      <p>
+        This concrete sculpture renders a relic of the desktop era the Recycle Bin, a once-familiar icon of deletion and discard into a permanent form. Cast, the ephemeral is made enduring. A user interface element designed to be invisible and temporary becomes physical, weighty, permanent.
+      </p>
+      <br>
+      <p>
+        Recycle Bin (Solid State) is an artefact of layered obsolescence: a fossil from the early digital age, a ghost of vanished interfaces, and a monument to systems no longer in use. Its construction in concrete, a material of brutal permanence, transforms a symbol of disposability into a sculptural paradox. What was once easily emptied, now cannot be moved.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- EVERYTHING BELOW IS IDENTICAL TO HOMEPAGE -->
+  <div class="tickets">Tickets</div>
+
+  <div class="footer">
+    <div>
+      <strong>About</strong><br><br>
+      Home<br>Artworks<br>Tickets<br>About
+    </div>
+    <div>
+      <strong>Contact Us</strong><br><br>
+      docstudio.space<br>
+      info@docstudio.space<br>
+      Facebook<br>Instagram
+    </div>
+    <div>
+      <strong>MSA Opening Hours</strong><br><br>
+      <strong>Monday:</strong> 9am–7pm<br>
+      <strong>Tuesday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Wednesday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Thursday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Friday:</strong> 9am–7pm<br>
+      <strong>Saturday:</strong> 9am–1pm<br>
+      <strong>Sunday & Public Holidays:</strong> Closed
+    </div>
+  </div>
+
+  <div class="logos">
+    <img src="/Assets/docstudio.png" alt="doc studio" class="logo-docstudio">
+    <img src="/Assets/msa.png" alt="Malta Society of Arts" class="logo-msa">
+  </div>
+
+</div>
+
+</body>
+
+</html>

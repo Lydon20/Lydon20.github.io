@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recycle Bin (Solid State)</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Specific styles for this artwork page */
+    .artwork-header {
+      padding: 60px 30px;
+    }
+    .green-title {
+      color: #008000;
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 32px;
+      font-weight: normal;
+    }
+
+    .detail-container {
+  position: relative;
+  margin: 60px 30px 200px;
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+
+    .artwork-image-frame {
+  border: 3px solid #FAFAFA;
+  padding: 30px;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+    .artwork-image-frame img {
+  width: 170px;
+}
+
+
+
+    .description-box {
+  border: 1px solid #FAFAFA;
+  padding: 24px;
+  max-width: 700px;
+  font-size: 19px;
+  line-height: 1.55;
+  margin-left: 400px;
+}
+
+/* === ARTWORK PAGE FLOW FIX === */
+
+.artwork-page .canvas {
+  min-height: auto;
+}
+
+/* Reset absolute positioning from homepage */
+.artwork-page .tickets,
+.artwork-page .footer,
+.artwork-page .logos {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-right: 50%;
+}
+    
+  </style>
+</head>
+<body class="artwork-page">
+
+
+<div class="canvas">
+
+  <!-- ARTWORK HEADER (no nav) -->
+  <div class="artwork-header">
+    <div class="green-title">Advertise Here</div>
+    <div class="subtitle">Light Sculpture</div>
+  </div>
+
+  <!-- ARTWORK DETAIL SECTION -->
+  <div class="detail-container">
+    
+    <div class="artwork-image-frame">
+      <img src="/Assets/advertise here.png" alt="Advertise Here">
+    </div>
+
+    <div class="description-box">
+      <p>
+        Advertise Here is an installation composed of a rolling LED sign and display hardware. The LED loops outdated messages such as “internet café open 24/7”, echoing the visual language of early 2000’s digital signage. These texts once marked access to public connectivity, cheap services, and 24-hour availability are now largely displaced by smartphones, cloud platforms, and always-on networks.
+      </p>
+      <br>
+      <p>
+        The installation doesn’t parody or remix these messages — it preserves them. In doing so, it highlights the afterlife of commercial infrastructure: systems still technically functional, but culturally and economically redundant. The screens still glow, but the services they once advertised no longer hold relevance.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- EVERYTHING BELOW IS IDENTICAL TO HOMEPAGE -->
+  <div class="tickets">Tickets</div>
+
+  <div class="footer">
+    <div>
+      <strong>About</strong><br><br>
+      Home<br>Artworks<br>Tickets<br>About
+    </div>
+    <div>
+      <strong>Contact Us</strong><br><br>
+      docstudio.space<br>
+      info@docstudio.space<br>
+      Facebook<br>Instagram
+    </div>
+    <div>
+      <strong>MSA Opening Hours</strong><br><br>
+      <strong>Monday:</strong> 9am–7pm<br>
+      <strong>Tuesday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Wednesday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Thursday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Friday:</strong> 9am–7pm<br>
+      <strong>Saturday:</strong> 9am–1pm<br>
+      <strong>Sunday & Public Holidays:</strong> Closed
+    </div>
+  </div>
+
+  <div class="logos">
+    <img src="/Assets/docstudio.png" alt="doc studio" class="logo-docstudio">
+    <img src="/Assets/msa.png" alt="Malta Society of Arts" class="logo-msa">
+  </div>
+
+</div>
+
+</body>
+
+</html>

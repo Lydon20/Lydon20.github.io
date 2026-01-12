@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recycle Bin (Solid State)</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Specific styles for this artwork page */
+    .artwork-header {
+      padding: 60px 30px;
+    }
+    .green-title {
+      color: #008000;
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 32px;
+      font-weight: normal;
+    }
+
+    .detail-container {
+  position: relative;
+  margin: 60px 30px 200px;
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+
+    .artwork-image-frame {
+  border: 3px solid #FAFAFA;
+  padding: 30px;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+    .artwork-image-frame img {
+  width: 170px;
+}
+
+
+
+    .description-box {
+  border: 1px solid #FAFAFA;
+  padding: 24px;
+  max-width: 700px;
+  font-size: 19px;
+  line-height: 1.55;
+  margin-left: 400px;
+}
+
+/* === ARTWORK PAGE FLOW FIX === */
+
+.artwork-page .canvas {
+  min-height: auto;
+}
+
+/* Reset absolute positioning from homepage */
+.artwork-page .tickets,
+.artwork-page .footer,
+.artwork-page .logos {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-right: 50%;
+}
+    
+  </style>
+</head>
+<body class="artwork-page">
+
+
+<div class="canvas">
+
+  <!-- ARTWORK HEADER (no nav) -->
+  <div class="artwork-header">
+    <div class="green-title">Bryce 3D Weave</div>
+    <div class="subtitle">3D Software, Industrial loom</div>
+  </div>
+
+  <!-- ARTWORK DETAIL SECTION -->
+  <div class="detail-container">
+    
+    <div class="artwork-image-frame">
+      <img src="/Assets/picture.png" alt="Picture">
+    </div>
+
+    <div class="description-box">
+      <p>
+        Bryce 3D Weave interlaces two distinct forms of obsolescence: the programmed labour of industrial textile production and the decay of digital tools. At first glance, the work appears as a mechanical weave, repetitive, architectural, produced by automated processes. But embedded in its pattern is a 3D landscape, synthetic terrain rendered using Bryce 3D. a once-revolutionary software now all but unusable on modern machines.
+      </p>
+      <br>
+      <p>
+         The image itself is the result of digital excavation. To create it, we reconstructed a full late-90’s computing environment by sourcing discontinued hardware, legacy operating systems, and long-abandoned software stacks. The rendering process was fragile, glitch-ridden, and methodical mirroring the logic of the industrial loom, which operates with precision yet depends on strict, outdated instructions.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- EVERYTHING BELOW IS IDENTICAL TO HOMEPAGE -->
+  <div class="tickets">Tickets</div>
+
+  <div class="footer">
+    <div>
+      <strong>About</strong><br><br>
+      Home<br>Artworks<br>Tickets<br>About
+    </div>
+    <div>
+      <strong>Contact Us</strong><br><br>
+      docstudio.space<br>
+      info@docstudio.space<br>
+      Facebook<br>Instagram
+    </div>
+    <div>
+      <strong>MSA Opening Hours</strong><br><br>
+      <strong>Monday:</strong> 9am–7pm<br>
+      <strong>Tuesday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Wednesday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Thursday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Friday:</strong> 9am–7pm<br>
+      <strong>Saturday:</strong> 9am–1pm<br>
+      <strong>Sunday & Public Holidays:</strong> Closed
+    </div>
+  </div>
+
+  <div class="logos">
+    <img src="/Assets/docstudio.png" alt="doc studio" class="logo-docstudio">
+    <img src="/Assets/msa.png" alt="Malta Society of Arts" class="logo-msa">
+  </div>
+
+</div>
+
+</body>
+
+</html>

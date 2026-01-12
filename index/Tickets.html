@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recycle Bin (Solid State)</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Specific styles for this artwork page */
+    .artwork-header {
+      padding: 60px 30px;
+    }
+    .white-title {
+      color: #FAFAFA;
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 32px;
+      font-weight: normal;
+    }
+
+.detail-container {
+  margin: 60px 30px 140px;
+  display: flex;
+  align-items: stretch; /* KEY: equal height */
+  gap: 100px;
+}
+
+/* POSTER */
+.artwork-image-frame {
+  width: 600px;
+  height: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artwork-image-frame img {
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+}
+
+/* RIGHT COLUMN */
+.ticket-info {
+  display: flex;
+  flex-direction: column;
+  
+  height: 420px; /* SAME AS POSTER */
+  max-width: 600px;
+}
+
+/* TITLE */
+.event-title {
+  font-size: 58px;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* META TEXT */
+.event-meta {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 20px;
+  
+}
+
+/* SELECT TICKETS BUTTON */
+.select-tickets {
+  background: #008000;
+  color: #fafafa;
+  padding: 18px 30px;
+  width: fit-content;
+  font-size: 20px;
+  margin-top: 155px;
+  
+}
+
+/* === ARTWORK PAGE FLOW FIX === */
+
+.artwork-page .canvas {
+  min-height: auto;
+}
+
+/* Reset absolute positioning from homepage */
+.artwork-page .tickets,
+.artwork-page .footer,
+.artwork-page .logos {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-right: 50%;
+}
+    
+  </style>
+</head>
+<body class="artwork-page">
+
+
+<div class="canvas">
+
+  <!-- ARTWORK HEADER (no nav) -->
+  <div class="artwork-header">
+    <div class="white-title">Book Your Tickets</div>
+    <div class="subtitle">Choose date and time</div>
+  </div>
+
+  <!-- ARTWORK DETAIL SECTION -->
+  <div class="detail-container">
+
+  <!-- POSTER -->
+  <div class="artwork-image-frame">
+    <img src="/Assets/poster.png" alt="Poster">
+  </div>
+
+  <!-- TEXT COLUMN -->
+  <div class="ticket-info">
+    <h1 class="event-title">we are both obsolete</h1>
+
+    <div class="event-meta">
+      <p><strong>Date:</strong> Tuesday 3rd February 2026</p>
+      <p><strong>Time:</strong> 6pm</p>
+      <p><strong>Venue:</strong> Malta Society of Arts</p>
+    </div>
+
+    <div class="select-tickets">
+      Select Tickets
+    </div>
+  </div>
+
+</div>
+
+
+  <!-- EVERYTHING BELOW IS IDENTICAL TO HOMEPAGE -->
+  <div class="tickets">Tickets</div>
+
+  <div class="footer">
+    <div>
+      <strong>About</strong><br><br>
+      <a href="index.html">Home</a><br><a href="Artworks.html">Artworks</a><br><a href="Tickets.html">Tickets</a><br><a href="About.html">About</a>
+    </div>
+    <div>
+      <strong>Contact Us</strong><br><br>
+      docstudio.space<br>
+      info@docstudio.space<br>
+      Facebook<br>Instagram
+    </div>
+    <div>
+      <strong>MSA Opening Hours</strong><br><br>
+      <strong>Monday:</strong> 9am–7pm<br>
+      <strong>Tuesday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Wednesday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Thursday:</strong> 9am–12pm & 5pm–8pm<br>
+      <strong>Friday:</strong> 9am–7pm<br>
+      <strong>Saturday:</strong> 9am–1pm<br>
+      <strong>Sunday & Public Holidays:</strong> Closed
+    </div>
+  </div>
+
+  <div class="logos">
+    <img src="/Assets/docstudio.png" alt="doc studio" class="logo-docstudio">
+    <img src="/Assets/msa.png" alt="Malta Society of Arts" class="logo-msa">
+  </div>
+
+</div>
+
+</body>
+
+</html>
