@@ -13,7 +13,7 @@ body {
 
 .canvas {
  position: relative; 
- width: 1440px; 
+ width: 100%; 
  min-height: 2800px;
 }
 
