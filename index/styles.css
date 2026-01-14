@@ -12,11 +12,88 @@ body {
 }
 
 .canvas {
-  position: relative;
-  width: 100%;
-  min-height: 2800px;
+ position: relative; 
+ width: 100%; 
+ min-height: 2800px;
 }
 
+/* BACKGROUND LINE BASE */
+.bg-line {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none; /* important */
+}
+
+/* INDIVIDUAL LINE CONTROL */
+.line-1 {
+  width: 30px;        /* SCALE HERE */
+  height: auto;
+  top: 119px;          /* MOVE VERTICALLY */
+  left: 1275px;         /* MOVE HORIZONTALLY */
+  z-index: 50;
+}
+
+.line-2 {
+   width: 300px;        /* SCALE HERE */
+  height: auto;
+  top: 500px;          /* MOVE VERTICALLY */
+  left: 1275px;         /* MOVE HORIZONTALLY */
+}
+
+.line-3 {
+   width: 800px;        /* SCALE HERE */
+  height: auto;
+  top: 1050px;          /* MOVE VERTICALLY */
+  left: 260px;         /* MOVE HORIZONTALLY */
+  bottom: 600px;
+}
+
+.line-4 {
+   width: 600px;        /* SCALE HERE */
+  height: auto;
+  top: 1134px;          /* MOVE VERTICALLY */
+  left: 830px;         /* MOVE HORIZONTALLY */
+  bottom: 600px;
+}
+
+.line-5 {
+   width: 6.4px;        /* SCALE HERE */
+  height: 110;
+  top: 1312px;          /* MOVE VERTICALLY */
+  left: 180px;         /* MOVE HORIZONTALLY */
+  z-index: 50;
+}
+
+.line-6 {
+   width: 600px;        /* SCALE HERE */
+  height: 110;
+  top: 1425px;          /* MOVE VERTICALLY */
+  left: 350px;         /* MOVE HORIZONTALLY */
+}
+
+.line-7 {
+   width: 0.70px;        /* SCALE HERE */
+  height: 110;
+  top: 1858px;          /* MOVE VERTICALLY */
+  left: 906px;         /* MOVE HORIZONTALLY */
+  z-index: 50;
+}
+
+.line-8 {
+   width: 6.2px;        /* SCALE HERE */
+  height: 110;
+  top: 2149px;          /* MOVE VERTICALLY */
+  left: 450px;         /* MOVE HORIZONTALLY */
+  z-index: 50;
+}
+
+.line-9 {
+   width: 0.9px;        /* SCALE HERE */
+  height: 110;
+  top: 2149px;          /* MOVE VERTICALLY */
+  left: 955px;         /* MOVE HORIZONTALLY */
+  z-index: 50;
+}
 
 
 /* NAV */
@@ -198,7 +275,7 @@ a:visited {
   position: absolute;
   top: 2100px;
   width: 100%;
-  padding: 130px 130px 90px 130px;
+  padding: 130px 230px 90px 130px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
